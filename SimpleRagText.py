@@ -69,4 +69,4 @@ if file:
     if query:
         with st.spinner("Thinking... 🤔"):
             answer = ask(query, db)
-            st.text_area("Answer:", answer)
+            st.text_area("Answer:", answer,height=600)
