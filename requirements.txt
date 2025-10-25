@@ -1,15 +1,26 @@
+# streamlit
+# dotenv
+# PyPDF2
+# langchain==0.1.17
+# langchain-community
+# langchain-huggingface
+# langchain-openai
+# sentence-transformers>=2.2.2
+# faiss-cpu>=1.7.4
+# python-dotenv>=1.0.0
+# streamlit>=1.33.0
+# openai>=1.35.0
+# tiktoken>=0.7.0
+# huggingface-hub>=0.23.0
 streamlit
-dotenv
-PyPDF2
-langchain==0.1.17
-langchain-community
-langchain-huggingface
-langchain-openai
-sentence-transformers>=2.2.2
-faiss-cpu>=1.7.4
-python-dotenv>=1.0.0
-streamlit>=1.33.0
-openai>=1.35.0
-tiktoken>=0.7.0
-huggingface-hub>=0.23.0
+pypdf
+langchain==0.2.5 # Or a recent 0.2.x version
+langchain-text-splitters==0.2.2 # Recommended to use the package version
+langchain-openai==0.1.9 # Or a recent 0.1.x version
+langchain-community==0.2.5 # Or a recent 0.2.x version for FAISS and HuggingFaceEmbeddings
+faiss-cpu==1.8.0 # Or faiss-gpu if you have a GPU
+huggingface-hub
+transformers
+sentence-transformers
+python-dotenv
 
